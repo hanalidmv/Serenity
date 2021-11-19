@@ -1,6 +1,5 @@
 package fortna.environment.editor;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import utilities.NewUtil;
@@ -13,11 +12,10 @@ import org.junit.jupiter.api.Test;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static org.hamcrest.Matchers.*;
 import static net.serenitybdd.rest.SerenityRest.given;
 
-@Disabled
+
 @SerenityTest
 public class EditorPostTest extends Base {
 
